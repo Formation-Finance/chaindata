@@ -2683,6 +2683,48 @@
 				"IsDelegateContract": false
 			}
 		},
+        "formv4": {
+            "srcChainID": "1",
+            "destChainID": "56",
+            "PairID": "FORMv4",
+            "SrcToken": {
+                "ID": "ERC20",
+                "Name": "FORMERC20",
+                "Symbol": "FORM",
+                "Decimals": 18,
+                "Description": "ERC20 FORM",
+                "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                "DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                "ContractAddress": "0x21381e026Ad6d8266244f2A583b35F9E4413FA2a",
+                "MaximumSwap": 1750000,
+                "MinimumSwap": 52,
+                "BigValueThreshold": 350000,
+                "SwapFeeRate": 0,
+                "MaximumSwapFee": 0,
+                "MinimumSwapFee": 0,
+                "PlusGasPricePercentage": 10,
+                "DisableSwap": false,
+                "IsDelegateContract": false
+            },
+            "DestToken": {
+                "ID": "FORM",
+                "Name": "Form Token",
+                "Symbol": "FORM",
+                "Decimals": 18,
+                "Description": "cross chain bridge FORM with FORM",
+                "DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                "ContractAddress": "",
+                "MaximumSwap": 1750000,
+                "MinimumSwap": 52,
+                "BigValueThreshold": 350000,
+                "SwapFeeRate": 0.001,
+                "MaximumSwapFee": 260,
+                "MinimumSwapFee": 26,
+                "PlusGasPricePercentage": 1,
+                "DisableSwap": false,
+                "IsDelegateContract": false
+            }
+        },
 		"pcntv3": {
 			"srcChainID": "1",
 			"destChainID": "56",

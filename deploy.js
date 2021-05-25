@@ -52,7 +52,7 @@ const apikey = ''; // apiKey for etherscan / bscscan / ftmscan / etc
 */
 const mpcAddress = "0x533e3c0e6b48010873B947bddC4721b1bDFF9648";
 const signer = new ethers.Wallet(privateKey, provider);
-const constructorArgs = ["Token Name", "Symbol", "decimals", "underlying", signer.address];
+const constructorArgs = ["Formation Finance", "FORM", "18", "underlying", signer.address];
 
 /*
 
